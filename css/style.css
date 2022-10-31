@@ -1,12 +1,14 @@
-body{
+#home{
     background: rgb(244, 255, 251) !important;
+    height: 90vh;
+  
 }
 .logo{
     width: 70px;
     height: 50px;
 }
 .hm-nav .navbar-brand{
-    color: rgb(0, 103, 0) !important;
+    color: rgb(42, 132, 42) !important;
     
 }
 .hm-nav .nav-link{
