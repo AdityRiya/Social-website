@@ -1,0 +1,19 @@
+body{
+    background: rgb(244, 255, 251) !important;
+}
+.logo{
+    width: 70px;
+    height: 50px;
+}
+.hm-nav .navbar-brand{
+    color: rgb(0, 103, 0) !important;
+    
+}
+.hm-nav .nav-link{
+    color: rgb(72, 139, 82) !important;
+    
+}
+.hm-nav .nav-link:hover{
+    color: rgb(0, 46, 7) !important;
+    
+}
