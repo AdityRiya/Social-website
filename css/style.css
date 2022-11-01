@@ -5,8 +5,10 @@
     background-position: center;
     background-repeat: no-repeat, no-repeat;
     height: 90vh;
+    box-shadow: 2px 2px 5px rgb(120, 120, 120);
   
 }
+
 .logo{
     width: 70px;
     height: 50px;
@@ -22,6 +24,9 @@
 .hm-nav .nav-link:hover{
     color: rgb(0, 46, 7) !important;
     
+}
+.home-s{
+    border: 2px solid red;
 }
 footer{
     background-color: black;
@@ -56,4 +61,29 @@ footer{
     border-left: 1px solid rgb(159, 159, 159);
     border-right: 1px solid rgb(159, 159, 159);
     box-shadow: 5px 5px 3px #c2c2c2;
+    background:linear-gradient(rgb(255, 255, 255) ,rgb(254, 227, 151));
+}
+.table-one thead{
+    background: linear-gradient(rgb(163, 255, 163), rgb(146, 172, 217));
+}
+/* ******************************** */
+/* ****** Mission and Vision's Design ****** */
+/* ******************************** */
+.vision{
+    
+    background-image: linear-gradient(to right, rgba(243, 255, 246, 0.4), rgba(216, 252, 217, 0.661)), url('../assets/HM\ Karim\ Foundation\ Image\ 2.jpg');
+    
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat, no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    height: 50vh;
+    border-bottom-right-radius: 20px;
+    
+    border-bottom-left-radius: 20px;
+  
 }
