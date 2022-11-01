@@ -28,3 +28,32 @@ footer{
     color: white
     
 }
+
+/* ******************************** */
+/* ****** All member page's style ****** */
+/* ******************************** */
+.member{
+    
+    background-image: linear-gradient(to right, rgba(243, 255, 246, 0.8), rgba(216, 252, 217, 0.765)), url('../assets/HM\ Karim\ Foundation\ Image\ 2.jpg');
+    
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat, no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    height: 50vh;
+    border-bottom-right-radius: 20px;
+    
+    border-bottom-left-radius: 20px;
+  
+}
+.table-one{
+    padding: 20px;
+    border-bottom: 3px solid rgb(159, 159, 159);
+    border-left: 1px solid rgb(159, 159, 159);
+    border-right: 1px solid rgb(159, 159, 159);
+    box-shadow: 5px 5px 3px #c2c2c2;
+}
