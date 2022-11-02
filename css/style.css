@@ -1,14 +1,22 @@
 #home{
     
-    background-image: linear-gradient(to right, rgba(216, 252, 227, 0.8), rgba(194, 250, 196, 0.765)), url('../assets/p120318.jpg');
+    background-image: linear-gradient(to right, rgba(216, 252, 227, 0.496), rgba(194, 250, 196, 0.33)), url('../assets/p120318.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed;
     height: 90vh;
     box-shadow: 2px 2px 5px rgb(120, 120, 120);
   
-}
 
+}
+.home-container{
+    background: rgba(225, 255, 225, 0.67);
+}
+.home h1{
+    
+   transition: 1s;
+}
 .logo{
     width: 70px;
     height: 50px;
@@ -25,10 +33,30 @@
     color: rgb(0, 46, 7) !important;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .inner{
 	padding:30px;
 	text-align: center;
 	position: relative;
+    box-shadow: 2px 2px 5px rgb(124, 174, 124);
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .box .inner::before{
@@ -39,9 +67,11 @@
 	width:0;
 	box-sizing: border-box;
 	height: 0;
+    
 	border-bottom:3px solid transparent;
 	border-left: 3px solid transparent;
-	transition: all .8s ease;
+  
+	transition: all .5s ease;
 }
 .box .inner::after{
 	content: '';
@@ -92,7 +122,7 @@
 }
 }
 .mission{
-    background-color: rgba(153, 226, 111, 0.175);
+    background:linear-gradient(rgb(231, 231, 255),rgb(170, 255, 170));
 }
 
 .chairman img{
@@ -109,7 +139,7 @@
 
 
 footer{
-    background-color: black;
+    background: linear-gradient(to left,rgb(0, 0, 0),rgb(28, 43, 24),rgb(0, 0, 0));
     color: white
     
 }
@@ -125,6 +155,7 @@ footer{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -135,6 +166,9 @@ footer{
     border-bottom-left-radius: 20px;
   
 }
+table{
+    max-height: 10vh !important;
+}
 .table-one{
     padding: 20px;
     border-bottom: 3px solid rgb(159, 159, 159);
@@ -142,6 +176,7 @@ footer{
     border-right: 1px solid rgb(159, 159, 159);
     box-shadow: 5px 5px 3px #c2c2c2;
     background:linear-gradient(rgb(255, 255, 255) ,rgb(254, 227, 151));
+    
 }
 .table-one thead{
     background: linear-gradient(rgb(163, 255, 163), rgb(146, 172, 217));
