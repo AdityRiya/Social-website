@@ -202,3 +202,11 @@ table{
     border-bottom-left-radius: 20px;
   
 }
+/* ******************************** */
+/* ****** Services ****** */
+/* ******************************** */
+.ser{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 5px rgb(187, 187, 187);
+}
